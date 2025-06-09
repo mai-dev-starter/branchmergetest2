@@ -6,7 +6,7 @@ public with sharing class ClassA {
      * Constructor for ClassA
      */
     public ClassA() {
-        System.debug('fff');
+        System.debug('ccc');
     }
     /**
          * @description 
