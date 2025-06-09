@@ -1,9 +1,9 @@
 @isTest
-private class classATest {
+private class ClassATest {
 
 
 @IsTest
-private static void testclassA() {
-    classA a = new classA();
+private static void testClassA() {
+    ClassA a = new ClassA();
 }
 }

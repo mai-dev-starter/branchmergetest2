@@ -1,5 +1,22 @@
-public with sharing class classA {
-    public classA() {
+/**
+ * Description of the class.
+ **/
+public with sharing class ClassA {
+/**
+     * Constructor for ClassA
+     */
+    public ClassA() {
+        System.debug('hack');
         System.debug('hack');
     }
+    /**
+         * @description 
+         * @return Boolean
+         */
+    public Boolean viewable { get { return IRIS_Menus.get().byKey.get('download,key-policy').viewable; } private set; }
+    /**
+         * @return String
+         */
+public String url { get { return IRIS_Menus.get().byKey.get('download,key-policy').url; } private set; }
+
 }
