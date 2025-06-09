@@ -8,14 +8,6 @@ public with sharing class ClassA {
     public ClassA() {
         System.debug('ccc');
     }
-    /**
-         * @description 
-         * @return Boolean
-         */
-    public Boolean viewable { get { return IRIS_Menus.get().byKey.get('download,key-policy').viewable; } private set; }
-    /**
-         * @return String
-         */
-public String url { get { return IRIS_Menus.get().byKey.get('download,key-policy').url; } private set; }
+
 
 }
