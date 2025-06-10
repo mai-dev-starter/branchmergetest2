@@ -1,5 +1,5 @@
 public with sharing class classA {
     public classA() {
-        System.debug('hacktest2');
+        System.debug('hacktest3');
     }
 }
